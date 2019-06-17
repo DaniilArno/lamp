@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<!-- Required meta tags -->
+	<title>Specification</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/specifications.css">
+	<link rel="stylesheet" href="css/specificationsmedia.css">
+
+</head>
+
+<body>
+
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<ul>
+				<li class="sidenav_link">
+					<a href="specifications.html">Описание</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Безопасность</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Когда пригодится</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Первый запуск</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Дизайн</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">О нас</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Предложение корпоративным <br>
+						клиентам и партнерам</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">Оформление предзаказа</a>
+				</li>
+				<li class="sidenav_link">
+					<a href="#">FAQ - часто задаваемые вопросы</a>
+				</li>
+			</ul>
+	</div>
+
+
+
+
+<div class="menu-top user-select">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class=" col-lg-3 col-md-4 col-sm-4 col-4">
+				<div class="menu-top_item menu-top_logo d-flex align-items-center justify-content-center justify-content-sm-start">
+					<a href="/" class="my-auto ">
+						<img src="img/logo-phibi.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-4  col-sm-4 col-4">
+				<div  onclick="openNav()" class="menu-top_item menu-top_menu d-flex align-items-center justify-content-center">
+					<a class="menu-top_item menu-top_menu d-flex align-items-center justify-content-center" href="#" id="menu"><img src="img/icon-menu-dots.png" alt=""><span style="font-size:20px;cursor:pointer" onclick="openNav()"> Меню</span></a>
+				</div>
+			</div>
+			<div class="col-xl-3  col-lg-3  col-sm-4 col-4">
+					<a href="store.html" class="menu-top_cart_link menu-top_item menu-top_cart d-flex align-items-center justify-content-center" id="store_link"><img src="img/icon-cart.png" alt=""><div class="menu-top_cart_circle d-inline-block tac" id="menu-top_cart_circle"><p>3</p></div></a>
+
+			</div>
+			<div class="col-lg-3 col-md-5  d-none d-lg-block">
+				<div class="menu-top_item menu-top_contacts d-flex align-items-center justify-content-center justify-content-sm-end">
+					<p>+7 (499) 255-90-90</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="device-menu">
+	<div class="container user-select">
+		<div class="row no-gutters">
+			<div class="col-12 col-lg-6">
+				<div class="breadcrumbs">
+					
+					<a href="#">Продукция</a><a href="#" class="active">Сенсорный Wi-Fi выключатель «Фиби» WD001</a>
+
+				</div>
+			</div>
+			<div class="col-12 col-xl-6">
+				<div class="container-buttons d-flex align-items-center justify-content-start ">
+					<div class="tabs">
+						<button class="tablinks " >Обзор</button>
+						<button class="tablinks ">Технические характеристики</button>
+						<button class="tablinks">Поддержка</button>
+						<button class="btn btn-accent btn-small" id="menu-buy">Купить</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Не нужный код. Без него не работают аккордионы -->
+
+<div id="device-content_overview" class="tabcontent" style="display: none;">
+	<form action="" id="orderForm">
+		<div class="device-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="device-gallery mt-30">
+							<div id="lg-wrap" class="image-main">
+								<div class="image-main-wrapper d-flex justify-content-center align-items-center">
+									<img id="imageMain" class="" src="img/device-gallery/phibi-switch-01.png" alt="">
+								</div>
+							</div>
+							<div class="image-preview">
+								<ul id='thumbnails' class="image-preview-wrapper">
+									<li class="active"><a href="img/device-gallery/phibi-switch-01.png" onclick="makeActive(this, event);"><img src="img/device-gallery/phibi-switch-01.png" alt=""></a></li>
+									<li class=""><a href="img/device-gallery/phibi-switch-02.png" onclick="makeActive(this, event);"><img src="img/device-gallery/phibi-switch-02.png" alt=""></a></li>
+									<li class=""><a href="img/device-gallery/phibi-switch-03.png" onclick="makeActive(this, event);"><img src="img/device-gallery/phibi-switch-03.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="switch-color" style="display: none;">
+								<ul>
+									<li class=""><span class="dot dot-black"></span><span class="color-name">Черный</span></li>
+									<li class="active"><span class="dot dot-white"></span><span class="color-name">Белый</span></li>
+								</ul>
+							</div>
+							<div class="switch-color">
+								<label class="switch-color-item item-white active">Белый<input type="radio" name="radio-color" checked><span class="checkmark"></span></label>
+								<label class="switch-color-item item-black">Черный<input type="radio" name="radio-color"><span class="checkmark"></span></label>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="device-description">
+
+							<h1 class="header-device-name pb-50">Сенсорный Wi-Fi выключатель Фиби WD001-2W </h1>
+							<div class="switch-channel pb-50">
+								<div class="btn_switch-channel"><input type="radio" id="single_channel" name="channel" value="1"> <label for="single_channel">Одноканальный</label></div>
+								<div class="btn_switch-channel"><input type="radio" id="two_channel" name="channel" value="2" checked> <label for="two_channel">Двухканальный</label></div>
+							</div>
+							<div class="text-group pb-50">
+								<p class="text-strong">Cоздан специально для российских квартир и домов</p>
+								<p>Выключатель Фиби — умная замена традиционному настенному выключателю света. Он полностью соответствует российским стандартам и не требует дополнительного оборудования и проводов. Установка занимает 5 минут.</p>
+							</div>
+							<div class="price-and-order">
+								<div class="wrap-device-price">
+									<span class="device-price">3600</span> <span class="currency-sign">₽</span>
+								</div>
+								<button type="submit" class="btn btn-accent">Купить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+<!-- Не нужный код. Без него не работают аккордионы -->
+
+<div id="device-content_specifications" class="tabcontent">
+	<div class="device-specifications">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Технические характеристики сенсорного Wi-Fi выключателя Фиби WD001</h1>
+					<div class="hr-gold-dark"></div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	<div class="accordion-container">
+		<div class="container">
+			<div class="set user-select">
+			    <a  class="active">
+			    	<div class="col">
+				      <div class="grid d-flex justify-content-between align-items-center">
+							<div class="section-name p10-left">
+								<button class="btn-rounded">Размеры</button>
+							</div>
+							<div class="section-button p10-right" id="section-button"	>
+								<!-- <i class="fa fa-plus"></i> -->
+								<img src="img/button-minus.png" alt="" class="section-button_img11"	>
+								<img src="img/button-plus.png" alt="" class="section-button_img22"	>
+							</div>
+						</div>
+					</div>	
+			    </a>
+			    <div class="content" id="content1">
+			      	<div class="row">
+						<div class="col-lg-5 col-md-12 col-xs-10 offset-xs-1">
+							<div class="img-wrapper img-wrapper_left">
+								<div class="img-inner">
+									<img src="img/device-specifications-image.png" alt="" class="responsive">
+								</div>
+								<div class="img-dimen-right d-inline-flex align-items-center">
+									<p>86 мм</p>
+								</div>
+								<div class="img-dimen-bot">
+									<p>86 мм</p>
+								</div>
+								<div class="img-dimen-bot-right"></div>
+							</div>
+						</div>
+						<div class="col-lg-4  col-sm-12">
+							<div class="img-wrapper img-wrapper-bottom">
+								<div class="img-inner-top-view">
+									<img src="img/device-specifications-image-top.png" alt=""  class="responsive">
+								</div>
+								<div class="img-dimen-right-top-view ">
+									<div class="item d-inline-flex justify-content-start align-items-center">
+										<div class="line"></div>
+										<div class="line-text"><p>8 мм</p></div>
+									</div>
+									<div class="item item-backpart d-inline-flex justify-content-start align-items-center">
+										<div class="line"></div>
+										<div class="line-text"><p>26 мм</p></div>
+									</div>
+
+								</div>
+								<div class="img-dimen-bot-top-view">
+									<div class="line-wrapper  d-flex justify-content-center">
+										<div class="line"></div>
+									</div>
+									<div class="line-text"><p>50 мм</p></div>
+								</div>
+								<div class="img-dimen-bot-right-top-view d-flex justify-content-center">
+									<div class="text">
+										<p class="c-grey t-italic"><strong>Помещается в стандартный российский подрозетник</strong></p>
+										<p class="c-grey t-italic">Обычно это: <br> d= от 60 мм, h= от 40 мм</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</div> 
+		</div>
+
+
+<div class="accordion-container">
+	<div class="container">
+		<div class="set1">
+			    <a class="active">
+			    	<div class="col">
+				      <div class="grid d-flex justify-content-between align-items-center">
+							<div class="section-name p10-left">
+								<button class="btn-rounded">Электротехнические характеристики</button>
+							</div>
+							<div class="section-button p10-right">
+								<!-- <i class="fa fa-plus"></i> -->
+								<img src="img/button-minus.png" alt="" class="section-button_img1"	>
+								<img src="img/button-plus.png" alt="" class="section-button_img2"	>
+								
+							</div>
+						</div>
+					</div>	
+			    </a>
+	    <div class="content1" id="content">
+	      	<div class="row">
+				<div class="col">
+					<div class="table-specifications">
+						<table>
+							<tr>
+								<td><p class="c-gold-dark">Питание</p></td>
+								<td>От бытовой электросети 230 В, 50 Гц</td>
+							</tr>
+							<tr>
+								<td><p class="c-gold-dark">Схема подключения</p></td>
+								<td>
+									<p>Двухпроводная <span class="c-grey t-italic">(в разрыв фазового провода нулевой провод не требуется)</span></p>
+									<ul>
+										<li><a href="" class="underlineLink">Как подключать</a></li>
+										<li><a href="" class="underlineLink">Преимущество схемы подключения Фиби</a></li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="c-gold-dark">Каналы <span class="c-grey t-italic">(количество точек освещения)</span></p></td>
+								<td>
+									<ul>
+										<li>1 (модель WD001-1)</li>
+										<li>2 (модель WD001-2)</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td><p class="c-gold-dark">Потребляемая мощность</p></td>
+								<td>
+									<ul>
+										<li>менее 1 Вт</li>
+										<li>менее 720 Вт·ч в месяц = менее 4 рублей в месяц*</li>
+									</ul>
+									<p><span class="c-grey t-italic fz-small">*Приблизительный расчет. Стоимость 1 кВт·ч электроэнергии равна 5,03 рубля (средний тариф по Москве и Московской области). Допускается, что выключатель работает 24 часа в сутки.</span></p>
+								</td>
+							</tr>
+							<tr>
+								<td class="c-gold-dark">Максимальная коммутируемая мощность</td>
+								<td>460 Вт <span class="c-grey t-italic">(2 A при 230 В)</span> </td>
+							</tr>
+							<tr>
+								<td><p class="c-gold-dark">Минимальная коммутируемая мощность</p></td>
+								<td>10 Вт </td>
+							</tr>
+							<tr>
+								<td><p class="c-gold-dark">Виды подключаемой нагрузки</p></td>
+								<td>
+									<ul>
+										<li>лампы накаливания</li>
+										<li>диммируемые лампы</li>
+										<li>светодиодные лампы</li>
+										<li>энергосберегающие люминесцентные лампы</li>
+									</ul>
+									<p><a href="" class="underlineLink">Подробнее о выборе ламп</a></p>
+								</td>
+							</tr>
+
+						</table>
+					</div>
+				</div>
+			</div>
+	    </div>
+	 </div>
+			</div>
+			 
+  		</div>
+
+		
+	</div>
+</div>
+
+<div id="device-content_support" class="tabcontent" style="display: none;">
+
+</div>
+
+
+
+
+<div class="mobile-apps">
+	<div class="container-fluid no-gutters ">
+		<div class="row no-gutters">
+			<div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-sm-10 offset-sm-1">
+				<div class="mobile-apps_description bg-grey">
+					<h2>Управляйте светом дистанционно через мобильное приложение</h2>
+					<p class="header-desc">По дороге домой, на работе, отдыхая за границей, из кафе или у друзей...</p>
+					<p>Скачайте бесплатное приложение «Фиби» и кликнув по нужной пиктограмме взависимости от вашего типа устройства</p>
+					<div class="mobile-apps_link-to-store android">
+						<p>Android</p>
+						<a href="#">
+							<img src="img/icon-google-play.png" alt="">
+						</a>
+					</div>
+					<div class="mobile-apps_link-to-store ios">
+						<p>iOS</p>
+						<a href="#">
+							<img src="img/icon-appstore.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6 col-md-6 d-none d-lg-block user-select">
+				<div class="mobile-apps_image bg-dark">
+					<img src="img/mobile_application.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="switch-buy bg-dark ptb-110 user-select">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-12 order-lg-1 order-md-2 order-sm-2 order-2">
+				<div class="devices-switch-colors">
+					<div class="switch-colors">
+						<img src="img/phibi-switch_white.png" alt="" class="">
+						<img src="img/phibi-switch_black.png" alt="" >
+					</div>
+					<div class="channel-type d-flex align-content-center">
+						<button class="btn btn-light activeded" id="one_chanel">Одноканальный</button>
+						<button class="btn btn-light" id="two_chanel">Двухканальный</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-12  order-lg-2 order-md-1 order-sm-1  order-1 col-xs-12">
+				<div class="devices-description">
+					<h2 class="header-simple__white">Сенсорный Wi-Fi выключатель Фиби WD001-2W</h2>
+					<div class="price-and-order  d-flex justify-content-lg-start justify-content-center ">
+						<div class="wrap-device-price ">
+							<span class="device-price">3600 </span> <span class="currency-sign">₽</span>
+							<button class="btn btn-accent">Купить</button>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+					<div class="slideshow-container_item ">
+						<!-- <img src="img/switches_black-white.png" alt="" class="responsive"> -->
+					</div>
+
+
+
+
+<div class="block-yellow-stripe"></div>
+
+<div class="footer bg-dark ptb-110">
+	<div class="container">
+		<!--<div class="d-flex justify-content-between">-->
+
+		<!--</div>-->
+		<div class="row">
+			<div class="col-md-4 col">
+				<div class="footer-block-left">
+					<h4>Phibi 2018</h4>
+					<p><span>Технологии умного дома</span></p>
+				</div>
+			</div>
+			<div class="col-md-4 col">
+				<div class="d-flex justify-content-center">
+					<div class="">
+						<ul>
+							<li><p> <a href="#" class="footer__menu_link">Выключатель</a></p></li>
+							<li><p><a href="#" class="footer__menu_link">Модуль</a> </p></li>
+							<li><p><a href="#" class="footer__menu_link">Розетка</a></p></li>
+							<li><p><a href="#" class="footer__menu_link">О нас</a></p></li>
+							<li><p><a href="#" class="footer__menu_link">Контакты</a></p></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="col-md-4 col">
+				<div class="d-flex justify-content-end">
+					<div class="">
+						<p><a class="footer__menu_info">+7 499 255-90-90</a></p>
+						<p><a class="footer__menu_info">mail@phibi-home.ru</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/specifications.js"></script>
+
+</body>
+
+</html>

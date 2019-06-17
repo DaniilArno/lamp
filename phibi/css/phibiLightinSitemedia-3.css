@@ -1,0 +1,96 @@
+@media screen and (max-width: 1200px) {
+  .content__mobile_descr {
+    padding: 0 30px; }
+  .content__item_title {
+    font-size: 27px; }
+  .content__item_left {
+    padding: 60px 90px 86px 90px; }
+  .Section {
+    -webkit-box-pack: baseline;
+    -webkit-justify-content: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap; }
+    .Section__item_left {
+      max-width: 500px; }
+    .Section__item_right {
+      max-width: 360px;
+      min-height: 415px;
+      -webkit-border-radius: 8px;
+              border-radius: 8px; }
+    .SectionMarginLeft {
+      margin-left: 0; } }
+
+@media screen and (max-width: 991px) {
+  .Section {
+    -webkit-box-pack: baseline;
+    -webkit-justify-content: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .SectionMarginLeft {
+      margin-left: 0px; }
+  .content__mobile {
+    height: 550px;
+    padding: 160px 100px 0px 100px; }
+    .content__mobile_image {
+      opacity: 0.35; }
+  .content__item_descr {
+    max-width: 455px;
+    margin: 0 auto; }
+  .SectionDescr {
+    margin-right: 0;
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 767px) {
+  .nav {
+    margin-bottom: 40px; }
+  .content__mobile {
+    max-height: 500px;
+    padding: 100px 40px 0px 40px; }
+    .content__mobile_image {
+      right: -60px;
+      top: 60px; }
+  #inputEmail {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .form-group {
+    text-align: center; }
+  .footer__item a {
+    font-size: 14px; } }
+
+@media (max-width: 576px) {
+  .content__item_title {
+    max-width: 430px;
+    font-size: 24px; }
+  .content__item_descr {
+    font-size: 14px; }
+  .content__mobile {
+    padding: 100px 30px 0px 30px; }
+    .content__mobilee_descr {
+      padding: 0; }
+  .content__item_left, .content__item_right {
+    padding: 60px 60px 60px 60px; }
+  .footer__item {
+    padding: 5px 5px; }
+  .footer__item a {
+    font-size: 12px; }
+  .SectionSubtitle {
+    font-size: 16px; }
+  .SectionTitle {
+    font-size: 30px; } }
+
+@media (max-width: 500px) {
+  .content__mobile_image {
+    right: -140px;
+    top: 60px; }
+  .owl-item__title {
+    font-size: 20px; }
+  .content__item_left, .content__item_right {
+    padding: 60px 30px 60px 30px; }
+  .owl-item_btn {
+    max-width: 150px; } }

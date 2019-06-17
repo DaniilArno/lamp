@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+	.content {
+		&__mobile_descr {
+			padding: 0 30px;
+		}
+		&__item {
+			&_title {
+				font-size: 27px;
+			}
+			&_left {
+				padding: 60px 90px 86px 90px;
+			}
+		}
+
+	}
+
+	.Section {
+		justify-content: baseline;
+		flex-wrap: nowrap;
+		&__item {
+			&_left {
+				max-width: 500px;
+			}
+			&_right {
+				max-width: 360px;
+				min-height: 415px;
+				border-radius: 8px;
+			}
+		}
+		&MarginLeft {
+			margin-left: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.Section {
+		justify-content: baseline;
+		flex-wrap: wrap;
+		&MarginLeft {
+		margin-left: 0px;
+	}
+	}
+	.content {
+		&__mobile {
+			height: 550px;
+			padding: 160px 100px 0px 100px;
+			&_image {
+				opacity: 0.35;
+			}
+		}
+		&__item_descr {
+			max-width: 455px;
+			margin: 0 auto;
+		}
+	}
+
+	.SectionDescr {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.nav {
+		margin-bottom: 40px;
+	}
+	.content__mobile {
+		max-height: 500px;
+		padding: 100px 40px 0px 40px;
+		&_image {
+			right: -60px;
+			top: 60px;
+		}
+	}
+	#inputEmail {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.form-group {
+		text-align: center;
+	}
+	.footer__item a {
+		font-size: 14px;
+	}
+}
+
+ @media (max-width: 576px) {
+	.content {
+		&__item {
+			&_title {
+				max-width: 430px;
+				font-size: 24px;
+			}
+			&_descr {
+				font-size: 14px;
+			}
+		}
+		&__mobile {
+			padding: 100px 30px 0px 30px;
+			&e_descr {
+				padding: 0;
+			}
+		}
+		
+	}
+
+	.content__item_left,.content__item_right {
+		padding: 60px 60px 60px 60px;
+	}
+	.footer__item {
+		padding: 5px 5px;
+	}
+	.footer__item a {
+		font-size: 12px;
+	}
+	.SectionSubtitle {
+		font-size: 16px;
+	}
+	.SectionTitle {
+		font-size: 30px;
+	}
+}
+@media (max-width: 500px) {
+	.content__mobile_image {
+		right: -140px;
+		top: 60px;
+	}
+	.owl-item__title {
+		font-size: 20px;
+	}
+	.content__item_left,.content__item_right {
+		padding: 60px 30px 60px 30px;
+	}
+	.owl-item_btn {
+		max-width: 150px;
+	}
+}

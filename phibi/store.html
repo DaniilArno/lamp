@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+
+
+	<!-- Css files -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/storeSasha.css">
+	<link rel="stylesheet" type="text/css" href="css/store.css">
+	<link rel="stylesheet" type="text/css" href="css/storemedia.css">
+
+</head>
+<body>
+
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<ul>
+			<li>
+				<a href="specifications.html" class="sidenav_link">Описание</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Безопасность</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Когда пригодится</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Первый запуск</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Дизайн</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">О нас</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Предложение корпоративным <br>
+					клиентам и партнерам</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">Оформление предзаказа</a>
+			</li>
+			<li>
+				<a href="#" class="sidenav_link">FAQ - часто задаваемые вопросы</a>
+			</li>
+		</ul>
+</div>
+
+
+
+
+<div class="menu-top user-select">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class=" col-lg-3 col-md-4 col-sm-4 col-4">
+				<div class="menu-top_item menu-top_logo d-flex align-items-center justify-content-center justify-content-sm-start">
+					<a href="/" class="my-auto ">
+						<img src="img/logo-phibi.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-4  col-sm-4 col-4">
+				<div  onclick="openNav()" class="menu-top_item menu-top_menu d-flex align-items-center justify-content-center">
+					<a class="menu-top_item menu-top_menu d-flex align-items-center justify-content-center" href="#" id="menu"><img src="img/icon-menu-dots.png" alt=""><span style="font-size:20px;cursor:pointer" onclick="openNav()"> Меню</span></a>
+				</div>
+			</div>
+			<div class="col-xl-3  col-lg-3  col-sm-4 col-4">
+					<a href="store.html" class="menu-top_cart_link menu-top_item menu-top_cart d-flex align-items-center justify-content-center" id="store_link"><img src="img/icon-cart.png" alt=""><div class="menu-top_cart_circle d-inline-block tac" id="menu-top_cart_circle"><p>3</p></div></a>
+
+			</div>
+			<div class="col-lg-3 col-md-5  d-none d-lg-block">
+				<div class="menu-top_item menu-top_contacts d-flex align-items-center justify-content-center justify-content-sm-end">
+					<p>+7 (499) 255-90-90</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="device-menu">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+					
+					<div class="firstBlock__store">
+						<div class="store_quantity">
+							Всего товаров (2) на общую сумму:
+						</div>
+						<div class="firstBlock__store_price" id="store_price">
+							21&nbsp;000 &#8381;
+						</div>
+						<div class="firstBlock__store_btn" >
+						<button class="btn btn-accent btn-accent2 " id="menu-buy"> Оформить заказ</button>
+						
+						</div>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<section id="bin">
+	<div class="container">
+		<div class="row">
+		<div class="col-12">
+			<h1 class="bin__title">
+				Ваша корзина с товарами
+			</h1>
+		</div>
+	</div>
+	</div>
+	
+	<div class="container">
+		<div class="bin__block">
+			<div class="row no-gutters">
+				<div class="col-xl-3 col-lg-2 col-md-4 col-sm-5">
+				<div  class="bin__block_centerImage">
+						<img src="img/656.png" class="bin_storeImg">
+				</div>
+				</div>
+				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-7 ">
+					<div class="bin__blockInfo">
+						<div class="bin__blockInfo_title">
+							Сенсорный Wi-Fi выключатель <br> Фиби WD001—1W 
+						</div>
+						<div class="bin__tab">
+							<div class="accordion">
+								<div>
+										Открыть дополнительную информацию
+										<i class="fa fa-lg fa-caret-down" aria-hidden="true"></i>
+								</div>
+								
+								
+
+							</div>
+							<div class="panel">
+							    <p>
+							  		Выключатель Фиби — умная замена традиционному настенному выключателю света. Он полностью соответствует российским стандартам и не требует дополнительного оборудования и проводов. Установка занимает 5 минут.
+							    </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-10 col-sm-8">
+					<div class="bin__storeMenu">
+						<div class="bin__storeMenu_item">
+							<img src="img/double.png">
+							<a href="#" id="addItem">
+								Продублировать товар
+							</a>
+						</div>
+						<div class="bin__storeMenu_item">
+							<div class="storeMenu_item_space">
+								<img src="img/delete.png">
+								<a href="#" id="addItem">
+									Удалить
+								</a>
+							</div>
+							<div>
+								<label class="bin__storeMenu_item_checkbox">
+							     	<input type="checkbox"  id="offer" name="offer">
+							     	<i class="helper"></i>
+							     	Оформлять
+							  	</label for="offer" class="offer_label">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row no-gutters justify-content-center">
+				<div class="col-xl-2 col-lg-3 col-md-4">
+					<p class="storeMenu_title">
+						Выберите тип
+					</p>
+					<div class="dropdown">
+						<button  class="btn btn-secondary dropdown-toggle storeMenu_choice" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Одноканальный
+						</button>
+						 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Another action</a>
+						    <a class="dropdown-item" href="#">Something else here</a>
+						  </div>
+							
+					</div>
+						
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4">
+					<p class="storeMenu_title">
+						Цвет
+					</p>
+					<div class="dropdown">
+						<button  class="btn btn-secondary dropdown-toggle storeMenu_choice  storeMenu_quantity" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Белый
+						</button>
+						 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						     <a class="dropdown-item" href="#">Дорогой</a>
+						    <a class="dropdown-item" href="#">Дешевый</a>
+						  </div>
+							
+					</div>
+						
+				</div>
+				
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<p class="storeMenu_title ">
+						Количество
+					</p>
+					<div class="storeMenu_choice storeMenu_quantity">
+						<a href="#">
+							01
+						</a>
+						<a href="#" class="storeMenu_choice_plus">
+							<img src="img/plus-circle.png">
+						</a>
+						<a href="#" class="storeMenu_choice_minus">
+							<img src="img/minus-circle.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-9 storeMenu_price ">
+					<p class="storeMenu_price_title">
+						Итого:
+					</p>
+					<span>
+						3500 &#8381;
+					</span>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+	<div class="container">
+		<div class="bin__block">
+			<div class="row no-gutters">
+				<div class="col-xl-3 col-lg-2 col-md-4 col-sm-5">
+					<img src="img/656.png" class="bin_storeImg">
+				</div>
+				<div class="col-xl-5 col-lg-6 col-md-8 col-sm-7 ">
+					<div class="bin__blockInfo">
+						<div class="bin__blockInfo_title">
+							Сенсорный Wi-Fi выключатель <br> Фиби WD001—1W 
+						</div>
+						<div class="bin__tab">
+							<div class="accordion">
+									<div>
+											Открыть дополнительную информацию
+											<i class="fa fa-lg fa-caret-down" aria-hidden="true"></i>
+									</div>
+							</div>
+							<div class="panel">
+							    <p>
+							  		Выключатель Фиби — умная замена традиционному настенному выключателю света. Он полностью соответствует российским стандартам и не требует дополнительного оборудования и проводов. Установка занимает 5 минут.
+							    </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-10 col-sm-12">
+					<div class="bin__storeMenu">
+						<div class="bin__storeMenu_item">
+							<img src="img/double.png">
+							<a href="#">
+								Продублировать товар
+							</a>
+						</div>
+						<div class="bin__storeMenu_item">
+							<div class="storeMenu_item_space">
+								<img src="img/delete.png">
+								<a href="#">
+									Удалить
+								</a>
+							</div>
+							<div>
+								<label>
+									<input type="checkbox"  id="offer" name="offer">
+									<i class="helper"></i>
+									Оформлять
+								</label for="offer" class="offer_label">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutters justify-content-center">
+				<div class="col-xl-2 col-lg-3 col-md-4">
+					<p class="storeMenu_title">
+						Выберите тип
+					</p>
+					<div class="dropdown">
+						<button  class="btn btn-secondary dropdown-toggle storeMenu_choice" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Одноканальный
+						</button>
+						 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Another action</a>
+						    <a class="dropdown-item" href="#">Something else here</a>
+						  </div>
+							
+					</div>
+						
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4">
+					<p class="storeMenu_title">
+						Цвет
+					</p>
+					<div class="dropdown">
+						<button  class="btn btn-secondary dropdown-toggle storeMenu_choice  storeMenu_quantity" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Белый
+						</button>
+						 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Дорогой</a>
+						    <a class="dropdown-item" href="#">Дешевый</a>
+						  </div>
+							
+					</div>
+						
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-3">
+					<p class="storeMenu_title">
+						Количество
+					</p>
+					<div class="storeMenu_choice storeMenu_quantity">
+						<a href="#">
+							01
+						</a>
+						<a href="#" class="storeMenu_choice_plus">
+							<img src="img/plus-circle.png">
+						</a>
+						<a href="#" class="storeMenu_choice_minus">
+							<img src="img/minus-circle.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-9 storeMenu_price ">
+					<p class="storeMenu_price_title">
+						Итого:
+					</p>
+					<span>
+						3500 &#8381;
+					</span>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		</div>
+	</div>
+</section>
+<section id="things">
+	<div class="container">
+		<div class="row no-gutters">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-12">
+				<div class="things__title">
+					Может заинтересовать
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-6">
+				<div class="thing">
+					<a href="">
+						<div class="things__img" id="interesting_items">
+							
+						</div>
+					</a>
+					<div class="things__descr">
+						<a href="">
+							Название продукта и его номер и артикул
+						</a> 
+					</div>
+					<div class="offer__btn">
+						<a href="#" id="addToCart">
+							Добавить 
+							<img src="img/truck.png">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-6">
+				<div class="thing">
+					<a href="">
+						<div class="things__img" id="interesting_items">
+							
+						</div>
+					</a>
+					<div class="things__descr">
+						<a href="">
+							Название продукта и его номер и артикул
+						</a> 
+					</div>
+					<div class="offer__btn">
+						<a href="#" id="addToCart">
+							Добавить 
+							<img src="img/truck.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="mobile-apps">
+	<div class="container-fluid  ">
+		<div class="row no-gutters">
+			<div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-sm-10 offset-sm-1">
+				<div class="mobile-apps_description bg-grey">
+					<h2>Управляйте светом дистанционно через мобильное приложение</h2>
+					<p class="header-desc">По дороге домой, на работе, отдыхая за границей, из кафе или у друзей...</p>
+					<p>Скачайте бесплатное приложение «Фиби» и кликнув по нужной пиктограмме взависимости от вашего типа устройства</p>
+					<div class="mobile-apps_link-to-store android">
+						<p>Android</p>
+						<a href="#">
+							<img src="img/icon-google-play.png" alt="">
+						</a>
+					</div>
+					<div class="mobile-apps_link-to-store ios">
+						<p>iOS</p>
+						<a href="#">
+							<img src="img/icon-appstore.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6 col-md-6 d-none d-lg-block">
+				<div class="mobile-apps_image bg-dark">
+					<img src="img/mobile_application.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="block-yellow-stripe"></div>
+
+<div class="footer bg-dark ptb-110">
+	<div class="container">
+		<!--<div class="d-flex justify-content-between">-->
+
+		<!--</div>-->
+		<div class="row">
+			<div class="col-md-4 col">
+				<div class="footer-block-left">
+					<h4>Phibi 2018</h4>
+					<p><span>Технологии умного дома</span></p>
+				</div>
+			</div>
+			<div class="col-md-4 col">
+				<div class="d-flex justify-content-center">
+					<div class="footer__menu_link">
+						<ul>
+							<li><p> <a href="#">Выключатель</a></p></li>
+							<li><p><a href="#">Модуль</a> </p></li>
+							<li><p><a href="#">Розетка</a></p></li>
+							<li><p><a href="#">О нас</a></p></li>
+							<li><p><a href="#">Контакты</a></p></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="col-md-4 col">
+				<div class="d-flex justify-content-end">
+					<div class="footer__menu_info">
+						<p>+7 499 255-90-90</p>
+						<p>mail@phibi-home.ru</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/storeSasha.js" ></script>
+<script src="js/store.js"></script>
+</body>
+</html>

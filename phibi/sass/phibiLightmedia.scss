@@ -1,0 +1,169 @@
+@media screen and (max-width: 1200px) {
+	.content__mobile_descr {
+		padding: 0 30px;
+	}
+	.content__item {
+		&_title {
+		font-size: 27px;
+		}
+		&_left {
+			padding: 60px 90px 86px 90px;
+		}
+	} 
+}
+
+@media screen and (max-width: 991px) {
+	#slider {
+		margin-bottom: 30px;
+	}
+	.owl-prev {
+		left: 0%;
+	}
+	.owl-next {
+		right: 0%;
+	}
+	.content__mobile {
+		height: 550px;
+		padding: 160px 100px 0px 100px;
+		&_image {
+			opacity: 0.35;
+		}
+	}
+	.content__item_descr {
+		max-width: 455px;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (max-width: 767px) {	 
+
+	#slider {
+		margin-bottom: 60px;
+	}
+	.owl-item__title {
+		font-size: 32px;
+	}
+	.content__mobile {
+		max-height: 500px;
+		padding: 100px 40px 0px 40px;
+		&_image {
+			right: -60px;
+			top: 60px;
+		}
+	}
+	#inputEmail {
+		margin: 0 auto ;
+		margin-bottom: 20px;
+	}
+	.form-group {
+		text-align: center;
+	}
+	.footer__item a {
+		font-size: 14px;
+	}
+}
+
+ @media (max-width: 576px) {
+	.owl-prev {
+		left: 10%;
+	}
+	.owl-next {
+		right: 10%;
+	}	
+	.owl-carousel_custom {
+		padding: 0;
+	}
+	.owl-item {
+		&__descr {
+		min-height: 80px;
+		font-size: 14px
+		}
+		&__title {
+			font-size: 24px;
+		}
+
+	}
+	#slider {
+		padding: 0;
+		margin-bottom: 0px;
+		padding-top: 35px;
+	}
+	.content {
+		&__item {
+			&_title {
+				font-size: 24px;
+				}
+				&_descr {
+					font-size: 14px;
+				}
+		}
+		&__mobile {
+			padding: 100px 30px 0px 30px;
+			&_descr {
+				padding: 0;
+			}
+		}
+	}
+	.content__item_left,.content__item_right {
+		padding: 60px 60px 60px 60px;
+	}
+	.footer__item {
+		padding: 5px 5px;
+	}
+	.footer__item a {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 500px) {
+	.owl-prev, .owl-next {
+    top: 425px;
+	}
+	.content__mobile_image {
+		right: -140px;
+		top: 60px;
+	}
+	.owl-prev {
+		left: 7%;
+	}
+	.owl-next {
+		right: 7%;
+	}	
+
+	.content__item_left,.content__item_right {
+		padding: 60px 30px 60px 30px;
+	}
+	.owl-item_btn {
+		max-width: 150px;
+	}
+	#inputEmail, #inputSubmit {
+		min-width: 90%;
+		width: auto;
+	}
+}
+@media (max-width: 402px) { 
+	.owl-item__title {
+		font-size: 20px;
+	}
+	.owl-prev, .owl-next {
+    top: 417px;
+	}
+	.owl-prev {
+		left: 3%;
+	}
+	.owl-next {
+		right: 3%;
+	}	
+}
+@media (max-width: 394px) { 
+	.owl-prev, .owl-next {
+    top: 437px;
+	}
+	.owl-prev {
+		left: 3%;
+	}
+	.owl-next {
+		right: 3%;
+	}	
+}

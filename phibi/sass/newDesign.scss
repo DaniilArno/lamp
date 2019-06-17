@@ -1,0 +1,152 @@
+#firstLight {
+  margin-top: 90px;
+  height: 680px;
+  background: url('../img/themePhibiLight.png') top center / cover;
+}
+.firstLight_title {
+  margin-top: 240px;
+  color: #d9d8d8;
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 55px;
+}
+.btnDownload {
+  max-width: 280px;
+  background: #ffe884;
+  border: 2px solid transparent;
+  padding: 20px 40px;
+  margin: 0 auto;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+.btnDownload {
+  background: #ffe884;
+  border: 2px solid transparent;
+  padding: 20px 40px;
+  margin: 0 auto;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+.btnDownload:hover {
+  background: #000;
+  color: #ffe884;
+  border: 2px solid #ffe884;
+}
+#control {
+  height: 250px;
+  background: #f2f2f2;
+}
+.controlItems {
+  height: 250px;
+}
+.controlItem img{
+  width: 250px;
+  height: 250px;
+  background: #f2f2f2;
+  color: #000;
+}
+.controlItems:hover {
+  background: #1e2127;
+  cursor: pointer;
+}
+.controlItem img {
+  width: 100px;
+  height: 100px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.controlItem_descr {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #1e2127;
+  height: 85px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 500;
+}
+.controlItem_descr:hover {
+  color: #ffe884;
+}
+.controlItem:hover+.controlItem_descr {
+  color: #ffe884;
+}
+.controlItem_lastChild {
+  width: 50px !important;
+}
+.Content__block {
+  height: 460px;
+  background: gray;
+  margin-bottom: 25px;
+}
+.Content__blockLast {
+  margin-bottom: 0px;
+}
+#secondLight {
+  min-height: 750px;
+  background: url('../img/secondLight.png') bottom center / cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* // 360px to 575px
+// Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 360px) and (max-width: 575.98px) {
+  #control {
+    min-height: 1000px;
+    background: #f2f2f2;
+  }
+  .firstLight_title {
+    margin-top: 160px;
+  }
+}
+/* // 360px to 575px */
+
+
+
+/* // 576px to 767px
+// Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #control {
+    min-height: 500px;
+    background: #f2f2f2;
+  }
+  .firstLight_title {
+    font-size: 40px;
+  }
+}
+/* // 576px to 767px */
+
+
+
+/* // 768px to 991px
+// Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+/* // 768px to 991px */
+
+
+
+/* // 992px to 1199px
+// Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* // 992px to 1199px */
+
+
+
+/* 1200PX and up
+Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* 1200PX and up */
